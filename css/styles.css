@@ -8,7 +8,7 @@ body{
 	border-radius: 0;
 	border: 0;
 	color: black;
-	opacity:0.7;
+	opacity: 0.7;
 }
 .navbar-header h1{
 	color: black;
@@ -40,29 +40,40 @@ body{
 }
 #home-tile h2{
 	text-align: center;
-	font-size:2.2em;
+	font-size: 2.2em;
+	color: black;
 }
 #home-tile h3{
 	text-align: center;
-	font-size:1.9em;
+	font-size: 2.0em;
+	border: 10px 10px 10px 10px;
 }
-#home-tile p{
+#home-tile span{
 	background-color: grey;
 	border: 2px solid black;
 	color: black;
-	box-sizing: border-box;
-	margin: 10px 10px 10px 10px;
 }
- div p{
-	border: 10px 10px 10px 10px;
-}
-
+ #navscroll navbar{
+ 	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	color: black;
+	opacity: 0.7;
+ }
+ #heading{
+ 	background: grey;
+ 	color: black;
+ 	border:2px solid black;
+ 	margin-bottom: 20px;
+ 	margin-top: 20px;
+ }
 
 /************************ medium device only*******************/
 @media(min-width: 768){
 	.navbar{
 		border: 2px solid black;
 	}
+
 }
 /************************* small device only******************/
 @media(max-width:767){
